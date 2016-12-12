@@ -1,5 +1,7 @@
 # Energy Monitor
 
+![Alt completed](/images/2016-09-05%2017.05.03.jpg?raw=true)
+
 This repository encapsulates one phase energy monitor for ThingSpeak based on ESP8266-01 module, current transformer and precision rectifier.
 
 Because ESP8266-01 has only two digital I/O pins (and also for precision) is for A/D conversion used 18bit I2C A/D converter MCP3421
@@ -16,8 +18,14 @@ There is also OpenSCAD model for case.
 I use module for several months at home and also on cottage. Public channels on ThingSpeak are:
 
 https://thingspeak.com/channels/150525
+
 https://thingspeak.com/channels/157732
 
 Here are some project images:
 
-![Alt completed monitor](/images/2016-09-05%2017.05.03.jpg?raw=true "Completed monitor") 
+### PCBs
+![Alt pcbs](/images/2016-09-01%2017.50.18.jpg?raw=true)
+### Mounted PCB
+![Alt pcbs](/images/2016-09-02%2022.31.33.jpg?raw=true)
+### 3D printed case
+![Alt pcbs](/images/2016-09-04%2022.42.33.jpg?raw=true)
