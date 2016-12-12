@@ -4,7 +4,7 @@
 
 This repository encapsulates one phase energy monitor for ThingSpeak based on ESP8266-01 module, current transformer and precision rectifier.
 
-Because ESP8266-01 has only two digital I/O pins (and also for resolution) is for A/D conversion used 18bit I2C A/D converter MCP3421 and fullwave precision rectifier realized via OZ LM258. For measuring current is used current transformer 30A SCT-013-030 which has already integrated shunt resistor.
+Because ESP8266-01 has only two digital I/O pins (and also for resolution) is for A/D conversion used 18bit I2C A/D converter MCP3421 and fullwave precision rectifier realized via double operational amplifier LM258. For measuring current is used current transformer 30A SCT-013-030 which has already integrated shunt resistor.
 
 For powering is used miniature 3.3V/600mA power supply from eBay such as http://www.ebay.com/itm/400761809788, but due to initial power requirements of ESP8266 i recomend 3.3V/1A power supply (is also available through this seller).
 
