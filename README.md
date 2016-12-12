@@ -12,7 +12,7 @@ Repository contains Eagle schematic and PCB layout. Because i do not have equipm
 
 Arduino software can be uploaded to ESP8266 via Arduino IDE. For building you need MCP342x module that is available here https://github.com/uChip/MCP342X on GitHub. For first 5 minutes after module startup is available WiFi AP "EnergyMonitor" with HTTP server at 192.168.4.1:80 behind it. On this URL is available simple configuration page for setting WiFi parameters, ThingSpeak channel/field with write-key, mains voltage and other tunning parameters. Configuration server is also available on internal network at DHCP assigned IP address (after module is properly connected to configured WiFi AP). Default parameters can be set in source file.
 
-There is also OpenSCAD and STL model for enclosure.
+There are also OpenSCAD and STL model for enclosure.
 
 I use module for several months at home and also on cottage. My public channels on ThingSpeak are:
 
