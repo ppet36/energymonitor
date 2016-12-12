@@ -8,7 +8,7 @@ Because ESP8266-01 has only two digital I/O pins (and also for resolution) is fo
 
 For powering is used miniature 3.3V/600mA power supply from eBay such as http://www.ebay.com/itm/400761809788, but due to initial power requirements of ESP8266 i recomend 3.3V/1A power supply (is also available through this seller).
 
-Repository contains Eagle schematic and PCB layout. Because i do not have equipment for proper handling of SMDs (and also for use MCP3421 on breadboard) i created small DPS that holds MCP3421 and has standard DIP dimensions.
+Repository contains Eagle schematic and PCB layout. Because i do not have equipment for proper handling of SMDs (and also for use MCP3421 on breadboard) i created small DPS that holds MCP3421 and has standard DIP dimensions. Note: 100n capacitors is soldered directly to pins on bottom side of DPS.
 
 Arduino software can be uploaded to ESP8266 via Arduino IDE. For building you need MCP342x module that is available here https://github.com/uChip/MCP342X on GitHub. For first 5 minutes after module startup is available WiFi AP "EnergyMonitor" with HTTP server at 192.168.4.1:80 behind it. On this URL is available simple configuration page for setting WiFi parameters, ThingSpeak channel/field with write-key, mains voltage and other tunning parameters. Configuration server is also available on internal network at DHCP assigned IP address (after module is properly connected to configured WiFi AP). Default parameters can be set in source file.
 
