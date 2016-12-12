@@ -28,5 +28,5 @@ Here are some project images:
 ![Alt pcbs](/images/2016-09-02%2022.31.33.jpg?raw=true)
 ### 3D printed case
 ![Alt pcbs](/images/2016-09-04%2022.42.33.jpg?raw=true)
-### MCP3421 breadboard module
+### MCP3421 breadboard modules
 ![Alt pcbs](/images/2016-08-24%2019.21.16.jpg?raw=true)
